@@ -1,17 +1,13 @@
 abstract class student {
     abstract int getNoOfStudent();
 }
-
 class section_905 extends student {
-
     @Override
     int getNoOfStudent() {
         return 85;
     }
 }
-
 class section_906 extends student {
-
     @Override
     int getNoOfStudent() {
         return 95;
